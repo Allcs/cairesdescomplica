@@ -104,7 +104,7 @@ const CriarTarefa = ({handleClose, tarefas, setTarefas}) =>{
             </Grid>
             <Grid item xs={3}>  
               <FormControl fullWidth>
-                <InputLabel htmlFor="tarefa_recurso">Recurso</InputLabel>
+                <InputLabel htmlFor="tarefa_recurso">linguagens</InputLabel>
                 <Select
                   id="tarefa_recurso"
                   value={recursoTarefa}
@@ -116,9 +116,9 @@ const CriarTarefa = ({handleClose, tarefas, setTarefas}) =>{
                     fontWeight: 400,
                   }} 
                 >
-                  <MenuItem value={'Recurso 1'}>Recurso 1</MenuItem>
-                  <MenuItem value={'Recurso 2'}>Recurso 2</MenuItem>
-                  <MenuItem value={'Recurso 3'}>Recurso 3</MenuItem>
+                  <MenuItem value={'Recurso 1'}>Javascript</MenuItem>
+                  <MenuItem value={'Recurso 2'}>HTML</MenuItem>
+                  <MenuItem value={'Recurso 3'}>CSS</MenuItem>
                 </Select>
               </FormControl>
             </Grid>
@@ -136,7 +136,7 @@ const CriarTarefa = ({handleClose, tarefas, setTarefas}) =>{
                     fontWeight: 400,
                   }} 
                 >
-                  <MenuItem value={'Aguardando'}>Aguardando</MenuItem>
+                  <MenuItem value={'Aguardando'}>Aguardando testes</MenuItem>
                   <MenuItem value={'Em Andamento'}>Em Andamento</MenuItem>
                   <MenuItem value={'Concluída'}>Concluída</MenuItem>
                 </Select>
